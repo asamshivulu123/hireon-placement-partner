@@ -9,8 +9,13 @@ const Hero = () => {
       
       <div className="container mx-auto px-4 relative z-10">
         <div className="flex flex-col items-center text-center max-w-5xl mx-auto">
-          <div className="mb-8 animate-fade-in">
-            <img src={hireonLogo} alt="Hireon Logo" className="h-20 w-auto mx-auto" />
+          <div className="mb-8 animate-fade-in flex items-center justify-center gap-4">
+            <div className="w-20 h-20 rounded-full bg-white shadow-lg flex items-center justify-center p-2 border-2 border-primary/20">
+              <img src={hireonLogo} alt="Hireon Logo" className="w-full h-full object-contain" />
+            </div>
+            <h2 className="text-6xl md:text-7xl font-bold bg-gradient-to-r from-primary via-primary-dark to-primary bg-clip-text text-transparent">
+              Hireon
+            </h2>
           </div>
           
           <h1 className="text-5xl md:text-7xl font-bold mb-6 leading-tight animate-fade-in-up">
