@@ -12,14 +12,7 @@ const experts = [
     description: "Seasoned project leader with 17+ years in managing large-scale initiatives and mentoring future professionals.",
     image: prasadImage,
     quote: "Preparing students for real-world success.",
-  },
-  {
-    name: "Vamshi Krishna Avunoori",
-    role: "Senior HR | Co-founder – Zcruit",
-    experience: "7+ yrs Experience",
-    description: "Experienced HR professional specializing in talent acquisition and organizational development.",
-    image: vamshiImage,
-    quote: "Building the workforce of tomorrow.",
+    linkedIn: "https://www.linkedin.com/in/prasad-anumula",
   },
   {
     name: "Santosh Kumar Thota",
@@ -28,6 +21,16 @@ const experts = [
     description: "HR innovator passionate about integrating AI into recruitment and people management.",
     image: santoshImage,
     quote: "Innovation meets human potential.",
+    linkedIn: "https://www.linkedin.com/in/santosh-kalyan-kumar",
+  },
+  {
+    name: "Vamshi Krishna Avunoori",
+    role: "Senior HR | Co-founder – Zcruit",
+    experience: "7+ yrs Experience",
+    description: "Experienced HR professional specializing in talent acquisition and organizational development.",
+    image: vamshiImage,
+    quote: "Building the workforce of tomorrow.",
+    linkedIn: "https://www.linkedin.com/in/vamshi-krishna-avunoori-03a47516b",
   },
   {
     name: "Tejesh Venna",
@@ -36,6 +39,7 @@ const experts = [
     description: "Data-driven professional combining analytics and AI to create impactful tech-driven solutions.",
     image: tejeshImage,
     quote: "Data-driven insights for career growth.",
+    linkedIn: "https://www.linkedin.com/in/venna-tejesh",
   },
 ];
 
@@ -80,9 +84,14 @@ const Experts = () => {
                 </p>
               </div>
               
-              <div className="absolute top-4 right-4 w-10 h-10 bg-primary rounded-full flex items-center justify-center opacity-0 group-hover:opacity-100 transition-opacity duration-300">
+              <a 
+                href={expert.linkedIn} 
+                target="_blank" 
+                rel="noopener noreferrer"
+                className="absolute top-4 right-4 w-10 h-10 bg-primary rounded-full flex items-center justify-center opacity-0 group-hover:opacity-100 transition-opacity duration-300 hover:scale-110 z-10"
+              >
                 <Linkedin className="w-5 h-5 text-white" />
-              </div>
+              </a>
               
               <div className="absolute inset-0 bg-gradient-to-t from-primary/20 to-transparent opacity-0 group-hover:opacity-100 transition-opacity duration-300 pointer-events-none"></div>
             </div>
