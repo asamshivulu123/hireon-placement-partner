@@ -15,15 +15,6 @@ const experts = [
     linkedIn: "https://www.linkedin.com/in/prasad-anumula",
   },
   {
-    name: "Santosh Kumar Thota",
-    role: "HR Specialist | Founder – Jatayuv AI",
-    experience: "2+ yrs Experience",
-    description: "HR innovator passionate about integrating AI into recruitment and people management.",
-    image: santoshImage,
-    quote: "Innovation meets human potential.",
-    linkedIn: "https://www.linkedin.com/in/santosh-kalyan-kumar",
-  },
-  {
     name: "Vamshi Krishna Avunoori",
     role: "Senior HR | Co-founder – Zcruit",
     experience: "7+ yrs Experience",
@@ -31,6 +22,15 @@ const experts = [
     image: vamshiImage,
     quote: "Building the workforce of tomorrow.",
     linkedIn: "https://www.linkedin.com/in/vamshi-krishna-avunoori-03a47516b",
+  },
+  {
+    name: "Santosh Kumar Thota",
+    role: "HR Specialist | Founder – Jatayuv AI",
+    experience: "2+ yrs Experience",
+    description: "HR innovator passionate about integrating AI into recruitment and people management.",
+    image: santoshImage,
+    quote: "Innovation meets human potential.",
+    linkedIn: "https://www.linkedin.com/in/santosh-kalyan-kumar",
   },
   {
     name: "Tejesh Venna",
